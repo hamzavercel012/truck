@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 export default function SlugPage({ post }) {
 useEffect(()=>{
-  location = `https://khelja.in/${post?.slug}`
+  location = `https://wildcaten.com/${post?.slug}`
 },[])
   return (
     <div>
